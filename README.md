@@ -37,12 +37,12 @@ cd Polimart
 #### Run the Backend
 
 ```bash
-cd backend-Springboot
+cd Polimart
 ./mvnw spring-boot:run
 ```
 or on Windows:
 ```cmd
-cd backend-Springboot
+cd Polimart
 mvnw.cmd spring-boot:run
 ```
 
@@ -108,9 +108,9 @@ npm start
 
 ## Configuration
 
-- **Backend Port:** `8081` (see `backend-Springboot/src/main/resources/application.properties`)
+- **Backend Port:** `8081` (see `Polimart/src/main/resources/application.properties`)
 - **Frontend Port:** `4200` (default Angular)
-- **File Upload Directory:** `backend-Springboot/uploads`
+- **File Upload Directory:** `Polimart/uploads`
 - **JWT Secret:** Set in `application.properties` (`jwt.secret`)
 - **Database:** In-memory H2 (no setup needed)
 
@@ -118,7 +118,7 @@ npm start
 
 ## Sample Files
 
-- Example files are in `backend-Springboot/uploads/` for testing.
+- Example files are in `Polimart/uploads/` for testing.
 
 ---
 
